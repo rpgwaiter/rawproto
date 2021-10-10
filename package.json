@@ -1,6 +1,6 @@
 {
   "name": "rawproto",
-  "version": "0.7.1",
+  "version": "0.7.4",
   "description": "Guess structure of protobuf binary from raw data",
   "type": "module",
   "source": "./index.js",
@@ -9,7 +9,7 @@
   "module": "./dist/rawproto.module.js",
   "unpkg": "./dist/rawproto.umd.js",
   "bin": {
-    "rawproto": "rawproto.cjs"
+    "rawproto": "./dist/rawproto.cjs"
   },
   "dependencies": {
     "protobufjs": "^6.10.2",
